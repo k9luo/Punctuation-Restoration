@@ -9,6 +9,7 @@ Punctuation Restoration
 ![](https://img.shields.io/badge/numpy-1.19.1-blue.svg)
 ![](https://img.shields.io/badge/ujson-4.0.1-blue.svg)
 ![](https://img.shields.io/badge/jupyter-1.0.0-blue.svg)
+![](https://img.shields.io/badge/ipython-7.18.1-blue.svg)
 ![](https://img.shields.io/badge/pandas-1.1.3-blue.svg)
 ![](https://img.shields.io/badge/tqdm-4.50.2-blue.svg)
 
@@ -43,13 +44,17 @@ First step, clone the repo:
 
 ```https://github.com/k9luo/Punctuation-Restoration.git```
 
-Second step, you can download pretrained [GloVe](https://nlp.stanford.edu/projects/glove/) word embeddings, create a new conda virutal environment and add the new virutal environment to Jupyter Notebook with `setup.sh`. Or you can manually do these steps yourself. Note that the running `setup.sh` will install the GPU version of TensorFlow:
+Second step, you can download pretrained [GloVe](https://nlp.stanford.edu/projects/glove/) word embeddings and create a new conda virutal environment with `setup.sh`. Or you can manually do these steps yourself. Note that the running `setup.sh` will install the GPU version of TensorFlow:
 
 ```sh setup.sh```
 
 Third step, activate the virtual environment:
 
 ```conda activate restore_punct```
+
+Fourth step, add the new virutal environment to Jupyter Notebook:
+
+```python -m ipykernel install --user --name=restore_punct```
 
 ## Training and Inference
 
