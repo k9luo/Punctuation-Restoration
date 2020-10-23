@@ -43,7 +43,7 @@ First step, clone the repo:
 
 ```https://github.com/k9luo/Punctuation-Restoration.git```
 
-Second step, you can download pretrained [GloVe](https://nlp.stanford.edu/projects/glove/) word embeddings, create a new conda virutal environment and add the new virutal environment to Jupyter Notebook with the setup bash. Or you can manually do these steps yourself:
+Second step, you can download pretrained [GloVe](https://nlp.stanford.edu/projects/glove/) word embeddings, create a new conda virutal environment and add the new virutal environment to Jupyter Notebook with `setup.sh`. Or you can manually do these steps yourself. Note that the running `setup.sh` will install the GPU version of TensorFlow:
 
 ```sh setup.sh```
 
