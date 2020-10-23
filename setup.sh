@@ -4,4 +4,3 @@ unzip glove*.zip
 mv glove* data/external/embeddings
 
 conda env create -f environment.yml
-python -m ipykernel install --user --name=restore_punct

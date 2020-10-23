@@ -1,10 +1,10 @@
 name: restore_punct
 dependencies:
   - python=3.7.6
+  - jupyter
+  - ipython
   - tensorflow-gpu==1.14.0
   - numpy
   - ujson
-  - jupyter
-  - pip
   - pandas
   - tqdm
